@@ -1,5 +1,5 @@
 (function () {
-  const STASHURL = "http://localhost:9999";
+  const STASHURL = "http://10.0.0.93:9999";
   const ROOT = "/custom/themeswitch/";
   const CSS = STASHURL + ROOT + "css/";
   const LIBURL = STASHURL + ROOT + "lib/";
