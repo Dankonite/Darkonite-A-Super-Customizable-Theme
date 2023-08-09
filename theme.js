@@ -8,7 +8,7 @@
     {
       name: "Theme Plugin Default CSS",
       category: "Library",
-      href: LIBURL + "themePluginDefault.css",
+      href: LIBURL + "Dankonite.css",
       shortname: "Style-Plugin-CSS-Default",
     },
   ];
