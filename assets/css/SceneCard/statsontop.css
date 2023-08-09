@@ -3,9 +3,11 @@
     right: .2rem;
     height: inherit;
     top: inherit;
+    line-height: 1.5rem;
 }
 .scene-specs-overlay {
     right: .2rem;
     top: .2rem;
     bottom: inherit;
+    line-height: .8rem;
 }

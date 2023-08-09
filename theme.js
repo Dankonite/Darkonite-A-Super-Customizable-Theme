@@ -22,6 +22,12 @@
     },
     {
       category: "Themes",
+      name: "Dankonite",
+      href: CSS + "Themes/" + "Mine.css",
+      shortname: "Style-Plugin-Theme-Dankonite",
+    },
+    {
+      category: "Themes",
       name: "Black Hole",
       href: CSS + "Themes/" + "blackhole.css",
       shortname: "Style-Plugin-Theme-Blackhole",
