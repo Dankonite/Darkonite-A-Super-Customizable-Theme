@@ -27,42 +27,6 @@
       shortname: "Style-Plugin-Theme-Dankonite",
     },
     {
-      category: "Themes",
-      name: "Black Hole",
-      href: CSS + "Themes/" + "blackhole.css",
-      shortname: "Style-Plugin-Theme-Blackhole",
-    },
-    {
-      category: "Themes",
-      name: "Modern Dark",
-      href: CSS + "Themes/" + "moderndark.css",
-      shortname: "Style-Plugin-Theme-ModernDark",
-    },
-    {
-      category: "Themes",
-      name: "Night",
-      href: CSS + "Themes/" + "night.css",
-      shortname: "Style-Plugin-Theme-Night",
-    },
-    {
-      category: "Themes",
-      name: "Plex",
-      href: CSS + "Themes/" + "plex.css",
-      shortname: "Style-Plugin-Theme-Plex",
-    },
-    {
-      category: "Themes",
-      name: "Pulsar",
-      href: CSS + "Themes/" + "pulsar.css",
-      shortname: "Style-Plugin-Theme-Pulsar",
-    },
-    {
-      category: "Themes",
-      name: "Pulsar Light",
-      href: CSS + "Themes/" + "pulsarlight.css",
-      shortname: "Style-Plugin-Theme-PulsarLight",
-    },
-    {
       category: "Change Order of Menu Bar",
       name: "Change the order of navigation bar buttons",
       href: null,
@@ -122,44 +86,6 @@
       name: "Better Movie layout for desktops: Larger size poster",
       href: CSS + "movies/" + "betterMovieLayoutForDesktop2.css",
       shortname: "Style-Plugin-CSS-betterMovieLayoutForDesktop2",
-    },
-    {
-      category: "Performers",
-      name: "Move the tags row in the Performer's edit panel to the second position",
-      href:
-        CSS +
-        "performers/" +
-        "moveTagsRowInPerformerEditPanelToSecondPosition.css",
-      shortname:
-        "Style-Plugin-CSS-moveTagsRowInPerformerEditPanelToSecondPosition",
-    },
-    {
-      category: "Performers",
-      name: "Place performer image in the background on performer page.",
-      href:
-        CSS +
-        "performers/" +
-        "placePerformerImageInBackGroundOnPerformerPage.css",
-      shortname: "Style-Plugin-CSS-placePerformerImageInBackGround",
-    },
-    {
-      category: "Performers",
-      name: "Show entire performer image in performer card",
-      href: CSS + "performers/" + "showEntirePerformerImageInCard.css",
-      shortname: "Style-Plugin-CSS-showEntirePerformerImageInCard",
-    },
-    {
-      category: "Performers",
-      name: "Show a larger image in performer's page for desktop",
-      href: CSS + "performers/" + "showLargerPerformerImageForDesktop.css",
-      shortname: "Style-Plugin-CSS-showLargerPerformerImageForDesktop",
-    },
-    {
-      category: "Performers",
-      name: "Show larger performer images in performers list",
-      href:
-        CSS + "performers/" + "showLargerPerformersImagesInPerformersList.css",
-      shortname: "Style-Plugin-CSS-showLargerPerformersImagesInPerformersList",
     },
     {
       category: "Scenes",
@@ -240,15 +166,21 @@
       shortname: "Style-Plugin-CSS-hideTagImages",
     },
     {
-      category: "Scene Card",
-      name: "Studio on top stats on bottom (Choose only one)",
+      category: "Scene Card Overlays",
+      name: "Studio on top, stats on bottom",
       href: CSS + "SceneCard/" + "studionameontop.css",
       shortname: "Style-Plugin-CSS-studionameontop",
     },
     {
-      category: "Scene Card",
-      name: "Stats on top studio on bottom (Choose only one)",
+      category: "Scene Card Overlays",
+      name: "Stats on top, studio on bottom (Has priority)",
       href: CSS + "SceneCard/" + "statsontop.css",
+      shortname: "Style-Plugin-CSS-statsontop",
+    },
+    {
+      category: "Performers",
+      name: "Hide gender icons",
+      href: CSS + "performers/" + "hideGenderIcons.css",
       shortname: "Style-Plugin-CSS-statsontop",
     },
   ];
@@ -257,7 +189,7 @@
     "Themes",
     "Global",
     "Change Order of Menu Bar",
-    "Scene Card",
+    "Scene Card Overlays",
     "Galleries",
     "Images",
     "Movies",
