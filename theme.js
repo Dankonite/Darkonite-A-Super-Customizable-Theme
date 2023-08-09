@@ -62,7 +62,7 @@
       name: "Hide studio logo/text from scene card",
       href: CSS + "scenes/" + "hideStudioLogoOrText.css",
       shortname: "Style-Plugin-CSS-hideStudioLogoOrText",
-      activebydefault: "true",
+      activebydefault: "false",
     },
     {
       category: "Scenes",
@@ -562,12 +562,16 @@
             shortname: shortname,
           };
           if (
-            localStorage.getItem(shortname) &&
-            FILES[j].activebydefault === "true"
+            localStorage.getItem(shortname)
             ) {
             } else {
+              if (
+              FILES[j].activebydefault === "true"
+              ) {
               console.log(shortname + " not found, making");
               setdefaultcss(shortname, category, href)
+              }
+              
             }
           if (
             CATEGORYORDER[i] === FILES[j].category &&
