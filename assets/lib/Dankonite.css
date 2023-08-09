@@ -1518,6 +1518,7 @@ span.drag-sort-active {
 }
 .checkbox-switch input[type="checkbox"] + label,
 .checkbox-switch input[type="radio"] + label {
+  -webkit-user-select: none;
   user-select: none;
 }
 .checkbox-switch input[type="checkbox"] + label:before,
