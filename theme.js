@@ -15,20 +15,6 @@
 
   const FILES = [
     {
-      category: "Themes",
-      name: "Default",
-      href: null,
-      shortname: "Style-Plugin-Theme-Default",
-      activebydefault: false,
-    },
-    {
-      category: "Themes",
-      name: "Dankonite",
-      href: CSS + "Themes/" + "Mine.css",
-      shortname: "Style-Plugin-Theme-Dankonite",
-      activebydefault: true,
-    },
-    {
       category: "Change Order of Menu Bar",
       name: "Change the order of navigation bar buttons",
       href: null,
@@ -193,7 +179,6 @@
   ];
 
   var CATEGORYORDER = [
-    "Themes",
     "Global",
     "Change Order of Menu Bar",
     "Scene Card Overlays",
@@ -511,7 +496,7 @@
       accordion.className = "criterion-list accordion";
       accordion.style = "max-width: 20rem !important;";
       const header = document.createElement("div");
-      header.innerHTML = "Theme/CSS Switcher";
+      header.innerHTML = "Dark by Dankonite";
       header.className = "modal-header";
       accordion.append(header);
 
