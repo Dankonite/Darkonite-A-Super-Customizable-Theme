@@ -239,6 +239,12 @@
       href: CSS + "SceneCard/" + "studionameontop.css",
       shortname: "Style-Plugin-CSS-studionameontop",
     },
+    {
+      category: "Scene Card",
+      name: "Stats on top studio on bottom (Choose only one)",
+      href: CSS + "SceneCard/" + "statsontop.css",
+      shortname: "Style-Plugin-CSS-statsontop",
+    },
   ];
 
   var CATEGORYORDER = [

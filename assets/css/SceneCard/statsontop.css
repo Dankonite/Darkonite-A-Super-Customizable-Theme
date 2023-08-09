@@ -1,0 +1,11 @@
+.scene-studio-overlay {
+    bottom: .2rem;
+    right: .2rem;
+    height: inherit;
+    top: inherit;
+}
+.scene-specs-overlay {
+    right: .2rem;
+    top: .2rem;
+    bottom: inherit;
+}
