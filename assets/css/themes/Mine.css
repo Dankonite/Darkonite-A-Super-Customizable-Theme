@@ -195,12 +195,7 @@ input.btn-secondary.form-control {
 .nav-tabs>.nav-link:has(span) {
     display: block;
 }
-.detail-header.collapsed div.col, .detail-header.collapsed span.alias-head {
-	display: none;
-}
-.detail-header.collapsed .detail-item.ethnicity, .detail-header.collapsed .detail-item.hair_color, .detail-header.collapsed .detail-item.eye_color, .detail-header.collapsed .detail-item.height, .detail-header.collapsed .detail-item.measurements, .detail-header.collapsed .detail-item.fake_tits, .detail-header.collapsed div.rating-number {
-	display: none;
-}
+
 .form-control
 {
 	border-radius:var(--not-card-radius);

@@ -19,12 +19,14 @@
       name: "Default",
       href: null,
       shortname: "Style-Plugin-Theme-Default",
+      activebydefault: false,
     },
     {
       category: "Themes",
       name: "Dankonite",
       href: CSS + "Themes/" + "Mine.css",
       shortname: "Style-Plugin-Theme-Dankonite",
+      activebydefault: true,
     },
     {
       category: "Change Order of Menu Bar",
@@ -32,156 +34,161 @@
       href: null,
       shortname: "Style-Plugin-CSS-changeOrderOfNavButtons",
       instructions: "Drag and drop the buttons to change the order",
-    },
-    {
-      category: "Galleries",
-      name: "Grid View",
-      href: CSS + "galleries/" + "gridView.css",
-      shortname: "Style-Plugin-CSS-gridView",
+      activebydefault: true,
     },
     {
       category: "Global",
       name: "NSFW",
       href: CSS + "global/" + "blurNSFWImages.css",
       shortname: "Style-Plugin-CSS-blurNSFWImages",
+      activebydefault: true,
     },
     {
       category: "Global",
       name: "NSFW, unblur on mouse over",
       href: CSS + "global/" + "blurNSFWImagesUnblurMouseOver.css",
       shortname: "Style-Plugin-CSS-blurNSFWImagesUnblurMouseOver",
+      activebydefault: false,
     },
     {
       category: "Global",
       name: "Hide 0 count badges",
       href: CSS + "global/" + "hide0CountBadges.css",
       shortname: "Style-Plugin-CSS-hide0CountBadges",
+      activebydefault: true,
     },
     {
       category: "Global",
       name: "Hide Donate Button",
       href: CSS + "global/" + "hideDonateButton.css",
       shortname: "Style-Plugin-CSS-hideDonateButton",
-    },
-    {
-      category: "Images",
-      name: "Disable Lightbox Annimation",
-      href: CSS + "images/" + "disableLightBox.css",
-      shortname: "Style-Plugin-CSS-disableLightBox",
-    },
-    {
-      category: "Images",
-      name: "Don't crop preview thumbnails",
-      href: CSS + "images/" + "dontCropPreviewThumbs.css",
-      shortname: "Style-Plugin-CSS-dontCropPreviewThumbs",
-    },
-    {
-      category: "Movies",
-      name: "Better Movie layout for desktops: Regular size poster",
-      href: CSS + "movies/" + "betterMovieLayoutForDesktop1.css",
-      shortname: "Style-Plugin-CSS-betterMovieLayoutForDesktop1",
-    },
-    {
-      category: "Movies",
-      name: "Better Movie layout for desktops: Larger size poster",
-      href: CSS + "movies/" + "betterMovieLayoutForDesktop2.css",
-      shortname: "Style-Plugin-CSS-betterMovieLayoutForDesktop2",
-    },
-    {
-      category: "Scenes",
-      name: "Hide the scene scrubber",
-      href: CSS + "scenes/" + "hideSceneScrubber.css",
-      shortname: "Style-Plugin-CSS-hideSceneScrubber",
+      activebydefault: true,
     },
     {
       category: "Scenes",
       name: "Hide scene specs (resolution, duration) from scene card",
       href: CSS + "scenes/" + "hideSpecs.css",
       shortname: "Style-Plugin-CSS-hideSpecs",
+      activebydefault: true,
     },
     {
       category: "Scenes",
       name: "Hide studio logo/text from scene card",
       href: CSS + "scenes/" + "hideStudioLogoOrText.css",
       shortname: "Style-Plugin-CSS-hideStudioLogoOrText",
+      activebydefault: true,
     },
     {
       category: "Scenes",
       name: "Hide truncated text",
       href: CSS + "scenes/" + "hideTruncatedText.css",
       shortname: "Style-Plugin-CSS-hideTruncatedText",
-    },
-    {
-      category: "Scenes",
-      name: "More thumbnails on each row",
-      href: CSS + "scenes/" + "moreThumbnailsPerRow.css",
-      shortname: "Style-Plugin-CSS-moreThumbnailsPerRow",
-    },
-    {
-      category: "Scenes",
-      name: "Longer string when displaying 'Studio as Text' on scene thumbnails",
-      href: CSS + "scenes/" + "studioAsTextThumbsLongerString.css",
-      shortname: "Style-Plugin-CSS-studioAsTextThumbsLongerString",
-    },
-    {
-      category: "Scenes",
-      name: "Swap studio and resolution/duration positions",
-      href: CSS + "scenes/" + "swapStudio&ResolutionDurationPos.css",
-      shortname: "Style-Plugin-CSS-swapStudio&ResolutionDurationPos",
-    },
-    {
-      category: "Scenes",
-      name: "Make the list of tags take up less width",
-      href: CSS + "scenes/" + "tagsListLessWidth.css",
-      shortname: "Style-Plugin-CSS-tagsListLessWidth",
-    },
-    {
-      category: "Scenes",
-      name: "Adjust the mouse over behaviour in wall mode",
-      href: CSS + "scenes/" + "wallModeAdjustMouseBehaviour.css",
-      shortname: "Style-Plugin-CSS-wallModeAdjustMouseBehaviour",
-    },
-    {
-      category: "Scenes",
-      name: "Disable zoom on hover in wall mode",
-      href: CSS + "scenes/" + "wallModeDisableZoonOnHover.css",
-      shortname: "Style-Plugin-CSS-wallModeDisableZoonOnHover",
-    },
-    {
-      category: "Studios",
-      name: "Different studio cards layout",
-      href: CSS + "studios/" + "differentStudioCardsLayout.css",
-      shortname: "Style-Plugin-CSS-differentStudioCardsLayout",
-    },
-    {
-      category: "Tags",
-      name: "Different tag cards layout",
-      href: CSS + "tags/" + "differentTagCardsLayout.css",
-      shortname: "Style-Plugin-CSS-differentTagCardsLayout",
-    },
-    {
-      category: "Tags",
-      name: "Hide Tag Images",
-      href: CSS + "tags/" + "hideTagImages.css",
-      shortname: "Style-Plugin-CSS-hideTagImages",
+      activebydefault: true,
     },
     {
       category: "Scene Card Overlays",
       name: "Studio on top, stats on bottom",
       href: CSS + "SceneCard/" + "studionameontop.css",
       shortname: "Style-Plugin-CSS-studionameontop",
+      activebydefault: true,
     },
     {
       category: "Scene Card Overlays",
       name: "Stats on top, studio on bottom (Has priority)",
       href: CSS + "SceneCard/" + "statsontop.css",
       shortname: "Style-Plugin-CSS-statsontop",
+      activebydefault: true,
     },
     {
       category: "Performers",
       name: "Hide gender icons",
       href: CSS + "performers/" + "hideGenderIcons.css",
-      shortname: "Style-Plugin-CSS-statsontop",
+      shortname: "Style-Plugin-CSS-hideGenderIcons",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Alias",
+      href: CSS + "performers/" + "hideAlias.css",
+      shortname: "Style-Plugin-CSS-hideAlias",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Rating",
+      href: CSS + "performers/" + "hideRating.css",
+      shortname: "Style-Plugin-CSS-hideRating",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Gender",
+      href: CSS + "performers/" + "hideGender.css",
+      shortname: "Style-Plugin-CSS-hideGender",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Age",
+      href: CSS + "performers/" + "hideAge.css",
+      shortname: "Style-Plugin-CSS-hideAge",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Country",
+      href: CSS + "performers/" + "hideCountry.css",
+      shortname: "Style-Plugin-CSS-hideCountry",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Ethnicity",
+      href: CSS + "performers/" + "hideEthnicity.css",
+      shortname: "Style-Plugin-CSS-hideEthnicity",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Hair Color",
+      href: CSS + "performers/" + "hideHairColor.css",
+      shortname: "Style-Plugin-CSS-hideHairColor",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Eye Color",
+      href: CSS + "performers/" + "hideEyeColor.css",
+      shortname: "Style-Plugin-CSS-hideEyeColor",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Height",
+      href: CSS + "performers/" + "hideHeight.css",
+      shortname: "Style-Plugin-CSS-hideHeight",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Measurements",
+      href: CSS + "performers/" + "hideMeasurements.css",
+      shortname: "Style-Plugin-CSS-hideMeasurements",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Fake Tits",
+      href: CSS + "performers/" + "hideFakeTits.css",
+      shortname: "Style-Plugin-CSS-hideFakeTits",
+      activebydefault: true,
+    },
+    {
+      category: "Performer Details Collapsed",
+      name: "Hide Edit/Tag/Submit/Delete Buttons",
+      href: CSS + "performers/" + "hideEditButtonsCollapsed.css",
+      shortname: "Style-Plugin-CSS-hideEditButtonsCollapsed",
+      activebydefault: true,
     },
   ];
 
@@ -190,13 +197,9 @@
     "Global",
     "Change Order of Menu Bar",
     "Scene Card Overlays",
-    "Galleries",
-    "Images",
-    "Movies",
     "Performers",
+    "Performer Details Collapsed",
     "Scenes",
-    "Studios",
-    "Tags",
   ];
 
   var svg_main_button =
@@ -344,8 +347,9 @@
       }
     } else {
       return false;
+      };
     }
-  }
+  
 
   function applyCSSMain(name, category, shortname, CSSHREF, applyStyle) {
     if (category === "Themes") {
@@ -567,13 +571,14 @@
           let category = FILES[j].category;
           let href = FILES[j].href;
           let shortname = FILES[j].shortname;
+          let activebydefault = FILES[j].activebydefault;
           let themeData = {
             name: name,
             category: category,
             href: href,
             shortname: shortname,
+            activebydefault: activebydefault,
           };
-
           if (
             CATEGORYORDER[i] === FILES[j].category &&
             FILES[j].category === "Change Order of Menu Bar"
@@ -651,11 +656,11 @@
             if (CATEGORYORDER[i] === "Themes") {
               input.type = "radio";
               input.name = "themeGroup";
-              const applied = checkAppliedCSS(FILES[j].shortname, "Themes");
+              const applied = checkAppliedCSS(shortname, "Themes");
               input.checked = applied;
             } else {
               input.type = "checkbox";
-              const applied = checkAppliedCSS(FILES[j].shortname, "CSS");
+              const applied = checkAppliedCSS(shortname, "CSS");
               input.checked = applied;
             }
 
