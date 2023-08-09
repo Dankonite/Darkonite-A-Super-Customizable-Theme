@@ -233,12 +233,19 @@
       href: CSS + "tags/" + "hideTagImages.css",
       shortname: "Style-Plugin-CSS-hideTagImages",
     },
+    {
+      category: "Scene Card",
+      name: "Studio on top stats on bottom (Choose only one)",
+      href: CSS + "SceneCard/" + "studionameontop.css",
+      shortname: "Style-Plugin-CSS-studionameontop",
+    },
   ];
 
   var CATEGORYORDER = [
     "Themes",
     "Global",
     "Change Order of Menu Bar",
+    "Scene Card",
     "Galleries",
     "Images",
     "Movies",
