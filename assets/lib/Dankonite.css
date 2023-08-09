@@ -843,12 +843,6 @@ hr
 {
 	text-align:left
 }
-
-.scene-specs-overlay,.scene-interactive-speed-overlay,.scene-studio-overlay,span.scene-card__date
-{
-	font-weight:900!important
-}
-
 .scrubber-tags-background
 {
 	background-color:var(--menu-gray);
