@@ -20,161 +20,161 @@
       href: null,
       shortname: "Style-Plugin-CSS-changeOrderOfNavButtons",
       instructions: "Drag and drop the buttons to change the order",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Global",
       name: "NSFW",
       href: CSS + "global/" + "blurNSFWImages.css",
       shortname: "Style-Plugin-CSS-blurNSFWImages",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Global",
       name: "NSFW, unblur on mouse over",
       href: CSS + "global/" + "blurNSFWImagesUnblurMouseOver.css",
       shortname: "Style-Plugin-CSS-blurNSFWImagesUnblurMouseOver",
-      activebydefault: false,
+      activebydefault: "true",
     },
     {
       category: "Global",
       name: "Hide 0 count badges",
       href: CSS + "global/" + "hide0CountBadges.css",
       shortname: "Style-Plugin-CSS-hide0CountBadges",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Global",
       name: "Hide Donate Button",
       href: CSS + "global/" + "hideDonateButton.css",
       shortname: "Style-Plugin-CSS-hideDonateButton",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Scenes",
       name: "Hide scene specs (resolution, duration) from scene card",
       href: CSS + "scenes/" + "hideSpecs.css",
       shortname: "Style-Plugin-CSS-hideSpecs",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Scenes",
       name: "Hide studio logo/text from scene card",
       href: CSS + "scenes/" + "hideStudioLogoOrText.css",
       shortname: "Style-Plugin-CSS-hideStudioLogoOrText",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Scenes",
       name: "Hide truncated text",
       href: CSS + "scenes/" + "hideTruncatedText.css",
       shortname: "Style-Plugin-CSS-hideTruncatedText",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Scene Card Overlays",
       name: "Studio on top, stats on bottom",
       href: CSS + "SceneCard/" + "studionameontop.css",
       shortname: "Style-Plugin-CSS-studionameontop",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Scene Card Overlays",
       name: "Stats on top, studio on bottom (Has priority)",
       href: CSS + "SceneCard/" + "statsontop.css",
       shortname: "Style-Plugin-CSS-statsontop",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performers",
       name: "Hide gender icons",
       href: CSS + "performers/" + "hideGenderIcons.css",
       shortname: "Style-Plugin-CSS-hideGenderIcons",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Alias",
       href: CSS + "performers/" + "hideAlias.css",
       shortname: "Style-Plugin-CSS-hideAlias",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Rating",
       href: CSS + "performers/" + "hideRating.css",
       shortname: "Style-Plugin-CSS-hideRating",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Gender",
       href: CSS + "performers/" + "hideGender.css",
       shortname: "Style-Plugin-CSS-hideGender",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Age",
       href: CSS + "performers/" + "hideAge.css",
       shortname: "Style-Plugin-CSS-hideAge",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Country",
       href: CSS + "performers/" + "hideCountry.css",
       shortname: "Style-Plugin-CSS-hideCountry",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Ethnicity",
       href: CSS + "performers/" + "hideEthnicity.css",
       shortname: "Style-Plugin-CSS-hideEthnicity",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Hair Color",
       href: CSS + "performers/" + "hideHairColor.css",
       shortname: "Style-Plugin-CSS-hideHairColor",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Eye Color",
       href: CSS + "performers/" + "hideEyeColor.css",
       shortname: "Style-Plugin-CSS-hideEyeColor",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Height",
       href: CSS + "performers/" + "hideHeight.css",
       shortname: "Style-Plugin-CSS-hideHeight",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Measurements",
       href: CSS + "performers/" + "hideMeasurements.css",
       shortname: "Style-Plugin-CSS-hideMeasurements",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Fake Tits",
       href: CSS + "performers/" + "hideFakeTits.css",
       shortname: "Style-Plugin-CSS-hideFakeTits",
-      activebydefault: true,
+      activebydefault: "true",
     },
     {
       category: "Performer Details Collapsed",
       name: "Hide Edit/Tag/Submit/Delete Buttons",
       href: CSS + "performers/" + "hideEditButtonsCollapsed.css",
       shortname: "Style-Plugin-CSS-hideEditButtonsCollapsed",
-      activebydefault: true,
+      activebydefault: "true",
     },
   ];
 
@@ -550,20 +550,25 @@
         categoryHeader.append(categorySpan, collapseDiv);
         const fieldset = document.createElement("fieldset");
         fieldset.className = "checkbox-switch";
-
         for (var j = 0; j < FILES.length; j++) {
           let name = FILES[j].name;
           let category = FILES[j].category;
           let href = FILES[j].href;
           let shortname = FILES[j].shortname;
-          let activebydefault = FILES[j].activebydefault;
           let themeData = {
             name: name,
             category: category,
             href: href,
             shortname: shortname,
-            activebydefault: activebydefault,
           };
+          if (
+            localStorage.getItem(shortname) &&
+            FILES[j].activebydefault === "true"
+            ) {
+            } else {
+              console.log(shortname + " not found, making");
+              setdefaultcss(shortname, category, href)
+            }
           if (
             CATEGORYORDER[i] === FILES[j].category &&
             FILES[j].category === "Change Order of Menu Bar"
@@ -698,6 +703,32 @@
     Array.prototype.map.call(sortableLists, (list) => {
       enableDragList(list);
     });
+  }
+  
+  function setdefaultcss(shortname, category, href) {
+    return new Promise((resolve) => {
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          let css;
+          css = this.responseText;
+          let data = {
+            name: shortname,
+            category: category,
+            css: css,
+            href: href,
+            id: shortname,
+            shortname: shortname,
+            applied: "true",
+          }; 
+          localStorage.setItem(shortname, JSON.stringify(data));
+          resolve();
+        }
+      };
+      xhr.open("GET", href, true);
+      xhr.send();
+    });
+    
   }
 
   function enableDragList(list) {
