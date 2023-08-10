@@ -1,0 +1,75 @@
+.btn:focus,.btn.focus
+{
+	box-shadow:none
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow:none;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus,.btn-secondary:not(:disabled):not(.disabled).active:focus,.show>.btn-secondary.dropdown-toggle:focus
+{
+	box-shadow:none
+}
+.edit-filter-dialog .criterion-list .card .filter-item-header:focus {
+    box-shadow:none;
+}
+.modifier-options .modifier-option.selected {
+	box-shadow: 0px 0px .5rem 1px;
+}
+.top-nav
+{
+	box-shadow: 0px 0px .5rem 1px #000;
+}
+.studio-card-image {
+	box-shadow: none;
+}
+.btn-toolbar>* {
+    box-shadow: 0px 0px .5rem 1px #000;
+}
+.PerformerTagger-performer {
+	box-shadow: 0px 0px .5rem 0px #000;
+}
+img {
+    box-shadow: 0px 0px .5rem 1px #000;
+}
+.scene-card-preview-image, .gallery-card-preview-image {
+    box-shadow: 0px 0px .5rem  1px #000;
+}
+span.tag-item.badge.badge-secondary {
+	box-shadow: 0px 0px .5rem 0px #000;
+}
+.pagination.btn-group {
+    box-shadow: 0px 0px .5rem 1px #000;
+}
+.card {
+	box-shadow: 0px 0px .5rem 1px #000;
+}
+.popover
+{
+	box-shadow: 0px 0px .5rem 1px #000;
+}
+.skeleton-card {
+    box-shadow: 0 0 .5rem 1px #000;
+}
+.query-text-field:active,.query-text-field:focus
+{
+	box-shadow:none!important
+}
+.form-control:focus
+{
+	box-shadow:none
+}
+.dropdown-menu.show
+{
+	box-shadow: 0px 0px .5rem 1px #000;
+}
+.edit-filter-dialog .criterion-list .card {
+    box-shadow: none;
+}
+.detail-header {
+	box-shadow: inset 0 0 .5rem #000;
+}
+@media (max-width: 576px){
+.bg-dark.order-sm-1.navbar-collapse {
+	box-shadow: inset 0 0 .5rem #000;
+}
+}

@@ -1,0 +1,11 @@
+.detail-item-value.country>.fi {
+	border-radius: 999px;
+	width: 1em;
+	background-size: 150%;
+}
+.sticky>.performer-country>.fi {
+	border-radius: 9999px;
+	width: 1em;
+	background-size: cover;
+	padding-right: 1rem
+}

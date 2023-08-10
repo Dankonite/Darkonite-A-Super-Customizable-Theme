@@ -142,7 +142,7 @@ button.brand-link:hover:after
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link
 {
 	background-color:var(--menu-gray);
-	border:1px solid none;
+	border:none;
 	color:var(--font-color)
 }
 .nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link
@@ -193,7 +193,7 @@ body ::-webkit-scrollbar-track
 .badge-info
 {
 	background-color:var(--menu-gray);
-	border:1px solid transparent;
+	border:none;
 	color:var(--font-color)
 }
 .clearable-text-field, .clearable-text-field:active, .clearable-text-field:focus {
@@ -254,7 +254,7 @@ input.btn-secondary.form-control {
 .tag-item
 {
 	background-color:var(--lighter-gray);
-	border:1px solid transparent;
+	border:none;
 	color:var(--font-color)
 }
 .selected-result {
@@ -263,7 +263,7 @@ input.btn-secondary.form-control {
 .popover-header
 {
 	background-color:var(--lighter-gray);
-	border-bottom:1px solid transparent
+	border-bottom:none
 }
 .job-table.card
 {
@@ -271,7 +271,7 @@ input.btn-secondary.form-control {
 }
 .recommendations-container-edit .recommendation-row {
     background-color: var(--menu-gray);
-    border:1px solid transparent;
+    border:none
 }
 span.tag-item.badge.badge-secondary {
 	background-color: var(--menu-gray);
@@ -389,7 +389,7 @@ input.bg-secondary.text-white.border-secondary.form-control,.date-input.form-con
 div.react-select__menu,div.dropdown-menu
 {
 	background-color:var(--menu-gray);
-	border:1px solid transparent;
+	border:none;
 	color:var(--font-color)
 }
 .setting-section .setting-group:not(:last-child)
@@ -427,6 +427,6 @@ div.react-select__placeholder
     border-color:transparent;
 }
 .edit-filter-dialog .criterion-list .card .filter-item-header {
-    border-bottom: 1px solid transparent;
+    border-bottom:none;
 	background-color: rgba(0,0,0,.2)
 }

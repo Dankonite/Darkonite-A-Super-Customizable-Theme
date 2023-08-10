@@ -32,6 +32,20 @@
     },
     {
       category: "Global",
+      name: "Box Shadows",
+      href: CSS + "global/" + "boxshadow.css",
+      shortname: "Style-Plugin-CSS-boxshadows",
+      activebydefault: "true",
+    },
+    {
+      category: "Global",
+      name: "Border Radius",
+      href: CSS + "global/" + "borderradius.css",
+      shortname: "Style-Plugin-CSS-borderradius",
+      activebydefault: "true",
+    },
+    {
+      category: "Global",
       name: "NSFW Blur",
       href: CSS + "global/" + "blurNSFWImages.css",
       shortname: "Style-Plugin-CSS-blurNSFWImages",
