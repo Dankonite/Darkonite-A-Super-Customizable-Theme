@@ -122,3 +122,311 @@ button.brand-link:hover:after
 {
 	color:var(--font-color)
 }
+.bg-dark
+{
+	background-color:var(--menu-gray)!important
+}
+.bg-secondary
+{
+	background-color:var(--menu-gray)!important
+}
+.border-secondary
+{
+	border-color:transparent!important
+}
+.modal-header,.modal-body,.modal-footer
+{
+	background-color:var(--menu-gray);
+	color:var(--font-color)
+}
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link
+{
+	background-color:var(--menu-gray);
+	border:1px solid none;
+	color:var(--font-color)
+}
+.nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link
+{
+	background-color:var(--menu-gray);
+	border-color:transparent;
+	color:var(--font-color)
+}
+::selection
+{
+	background-color:var(--lighter-gray)!important;
+	color:var(--font-color)!important
+}
+
+a.minimal,button.minimal
+{
+	color:var(--font-color)
+}
+
+body ::-webkit-scrollbar-thumb
+{
+	background:var(--active-gray)
+}
+
+body ::-webkit-scrollbar-thumb:hover
+{
+	background:var(--active-gray)
+}
+
+body ::-webkit-scrollbar-thumb:window-inactive
+{
+	background:var(--active-gray)
+}
+
+body ::-webkit-scrollbar-track
+{
+	background:var(--lighter-gray)
+}
+#queue-viewer .current
+{
+	background-color:var(--menu-gray)
+}
+
+#scene-edit-details .edit-buttons-container
+{
+	background-color:var(--background-color)
+}
+.badge-info
+{
+	background-color:var(--menu-gray);
+	border:1px solid transparent;
+	color:var(--font-color)
+}
+.clearable-text-field, .clearable-text-field:active, .clearable-text-field:focus {
+    background-color:var(--lighter-gray);
+    border-color:var(--active-gray);
+    color: var(--font-color);
+}
+.modifier-options .modifier-option.selected {
+    background-color:var(--active-gray);
+	border: 1px solid var(--font-color);
+}
+.search-item
+{
+	background-color:#161616;
+}
+.detail-header {
+	background-color: var(--disabled-color);
+}
+.modal-footer {
+	border-top: 1px solid var(--lighter-gray)!important
+}
+.modal-header {
+	border-bottom: 1px solid var(--lighter-gray)!important
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    background-color:var(--lighter-gray);
+    color: #000;
+}
+.react-datepicker-wrapper>*>* {
+	background-color:var(--lighter-gray)!important;
+}
+.grid-card .progress-bar {
+    background-color: var(--lighter-gray);
+}
+.PerformerTagger-performer {
+    background-color: var(--lighter-gray);
+}
+#scrubber-position-indicator
+{
+	background-color:var(--lighter-gray);
+}
+.badge-secondary
+{
+	background-color:var(--lighter-gray);
+	columns: var(--font-color);
+}
+input.btn-secondary.form-control {
+    background-color:var(--lighter-gray);
+}
+.bs-popover-bottom>.arrow:after,.bs-popover-auto[x-placement^=bottom]>.arrow:after
+{
+	border-bottom-color:var(--menu-gray);
+}
+.popover
+{
+	background-color:var(--menu-gray);
+}
+.tag-item
+{
+	background-color:var(--lighter-gray);
+	border:1px solid transparent;
+	color:var(--font-color)
+}
+.selected-result {
+    background-color:var(--menu-gray);
+}
+.popover-header
+{
+	background-color:var(--lighter-gray);
+	border-bottom:1px solid transparent
+}
+.job-table.card
+{
+	background-color:var(--menu-gray)
+}
+.recommendations-container-edit .recommendation-row {
+    background-color: var(--menu-gray);
+    border:1px solid transparent;
+}
+span.tag-item.badge.badge-secondary {
+	background-color: var(--menu-gray);
+}
+.scrubber-tags-background
+{
+	background-color:var(--menu-gray);
+}
+body
+{
+	background-color:var(--background-color);
+	color:var(--font-color);
+	text-align:left
+}
+
+.tag-item .btn
+{
+	color:var(--font-color)
+}
+.markdown code
+{
+	background-color:transparent;
+	color:var(--font-color)
+}
+
+.markdown table tr:nth-child(2n)
+{
+	background-color:var(--lighter-gray)
+}
+
+.details-list>*:nth-child(4n), .details-list>*:nth-child(4n - 1) {
+    background-color: var(--menu-gray);
+}
+.markdown blockquote,.markdown pre
+{
+	background-color:var(--lighter-gray)
+}
+div.react-select__multi-value__remove:hover
+{
+	background-color:var(--red-delete)
+}
+div.react-select__control .react-select__multi-value,div.react-select__multi-value__label,div.react-select__multi-value__remove
+{
+	background-color:var(--menu-gray);
+	color:var(--font-color)!important
+}
+div.react-select__control
+{
+	background-color:var(--lighter-gray);
+	border-color:transparent!important;
+	color:var(--font-color)
+}
+.text-input,.text-input:focus,.text-input[readonly],.text-input:disabled
+{
+	background-color:var(--lighter-gray)
+}
+.slick-dots li.slick-active button:before
+{
+	color: var(--font-color);
+	opacity:.75
+}
+.preview-button .fa-icon
+{
+	color:var(--font-color)
+}
+.input-control,.text-input
+{
+	border:none;
+	color:var(--font-color)
+}
+.grid-card .progress-indicator {
+    background-color: #137cbd;
+}
+.StudioTagger-studio, .StudioTagger-studio .studio-card img {
+    background-color: var(--lighter-gray);
+}
+button.collapse-button.btn-primary:not(:disabled):not(.disabled):hover,button.collapse-button.btn-primary:not(:disabled):not(.disabled):focus,button.collapse-button.btn-primary:not(:disabled):not(.disabled):active
+{
+	color:var(--font-color)
+}
+.scraper-table tr:nth-child(2n)
+{
+	background-color:var(--lighter-gray)
+}
+.table-striped tr:nth-child(odd) td {
+    background-color: var(--lighter-gray);
+}
+.tag-item>button:hover {
+    background-color: var(--lighter-gray);
+}
+.performer-card__age
+{
+	color:var(--font-color);
+}
+.skeleton-card {
+    background-color:var(--menu-gray);
+    border: 1px solid var(--lighter-gray);
+}
+.card
+{
+	background-color:var(--menu-gray);
+	box-shadow:none
+}
+.input-control,.input-control:focus,.input-control:disabled
+{
+	background-color:var(--menu-gray)
+}
+div.react-datepicker .react-datepicker__header, div.react-datepicker .react-datepicker-time__header {
+    background-color:var(--menu-gray);
+    color:var(--font-color);
+}
+input.bg-secondary.text-white.border-secondary.form-control,.date-input.form-control,.text-input.form-control {
+		border: 1px solid var(--menu-gray)!important;
+}
+div.react-select__menu,div.dropdown-menu
+{
+	background-color:var(--menu-gray);
+	border:1px solid transparent;
+	color:var(--font-color)
+}
+.setting-section .setting-group:not(:last-child)
+{
+	border-bottom:1px solid var(--background-color)
+}
+a
+{
+	color:var(--font-color)
+}
+.dropdown-item.disabled,.dropdown-item:disabled
+{
+	color:#adb5bd
+}
+#scrubber-current-position
+{
+	background-color:none;
+}
+
+@media (min-width: 576px) and (min-height: 600px) {
+	#tasks-panel .tasks-panel-queue
+	{
+		background-color:var(--background-color)
+	}
+}
+.grid-card a .card-section-title
+{
+	color:var(--font-color);
+}
+div.react-select__placeholder
+{
+	color:var(--font-color)
+}
+.edit-filter-dialog .criterion-list .card .filter-item-header:focus {
+    border-color:transparent;
+}
+.edit-filter-dialog .criterion-list .card .filter-item-header {
+    border-bottom: 1px solid transparent;
+	background-color: rgba(0,0,0,.2)
+}

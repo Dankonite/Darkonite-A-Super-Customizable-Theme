@@ -5,12 +5,6 @@
   const LIBURL = STASHURL + ROOT + "lib/";
 
   const LIBRARIES = [
-    {
-      name: "Theme Plugin Default CSS",
-      category: "Library",
-      href: LIBURL + "Dankonite.css",
-      shortname: "Style-Plugin-CSS-Default",
-    },
   ];
 
   const FILES = [
@@ -24,6 +18,13 @@
     },
     {
       category: "Global",
+      name: "Theme",
+      href: CSS + "global/" + "Dankonite.css",
+      shortname: "Style-Plugin-CSS-theme",
+      activebydefault: "true"
+    },
+    {
+      category: "Global",
       name: "Colors",
       href: CSS + "global/" + "colors.css",
       shortname: "Style-Plugin-CSS-colors",
@@ -31,14 +32,14 @@
     },
     {
       category: "Global",
-      name: "NSFW",
+      name: "NSFW Blur",
       href: CSS + "global/" + "blurNSFWImages.css",
       shortname: "Style-Plugin-CSS-blurNSFWImages",
       activebydefault: "false",
     },
     {
       category: "Global",
-      name: "NSFW, unblur on mouse over",
+      name: "Unblur on Mouseover",
       href: CSS + "global/" + "blurNSFWImagesUnblurMouseOver.css",
       shortname: "Style-Plugin-CSS-blurNSFWImagesUnblurMouseOver",
       activebydefault: "false",
