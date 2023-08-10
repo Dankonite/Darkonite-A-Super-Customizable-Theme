@@ -1,5 +1,5 @@
 # Stash Theme Darkonite by Dankonite
-Based on the work of [elkorol's theme switcher plugin](https://github.com/elkorol/Stash-App-Theme-Switch-Plugin)
+Based on the work of [elkorol's theme switcher plugin](https://github.com/elkorol/Stash-App-Theme-Switch-Plugin).
 Adds a button that shows a menu, allowing you to change CSS Options and enable/disable various CSS snippets for Stash App. Not all of the CSS is made by myself, see elkorols version for credits if I removed them, idk if I did or not.
 
 unlike elkorols version, I added the ability for css snippets to be enabled by default instead of requiring lots of enabling. This way I can deliver my vision of the theme, while adding the option for you the user to disable parts. Im trying to make *the* most customizable theme 

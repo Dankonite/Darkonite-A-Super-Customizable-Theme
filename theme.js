@@ -21,14 +21,14 @@
       name: "Dont Disable (todo fix)",
       href: CSS + "global/" + "dontdisable.css",
       shortname: "Style-Plugin-CSS-dontdisable",
-      activebydefault: "true"
+      activebydefault: "true",
     },
     {
       category: "Global",
-      name: "Theme",
+      name: "Misc changes (todo togglify)",
       href: CSS + "global/" + "Dankonite.css",
       shortname: "Style-Plugin-CSS-theme",
-      activebydefault: "true"
+      activebydefault: "true",
     },
     {
       category: "Global",
@@ -532,7 +532,7 @@
       accordion.className = "criterion-list accordion";
       accordion.style = "max-width: 20rem !important;";
       const header = document.createElement("div");
-      header.innerHTML = "Dark by Dankonite";
+      header.innerHTML = "Darkonite by Dankonite";
       header.className = "modal-header";
       accordion.append(header);
 
