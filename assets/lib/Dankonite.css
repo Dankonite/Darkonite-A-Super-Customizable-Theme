@@ -5,7 +5,6 @@
 	--disabled-color:#181818;
 	--font-color:#fff;
 	--lighter-gray:#303030;
-	--bright-gray:#353535;
 	--active-gray:#454545;
 	--menu-gray:#202020;
 	--menu-rounding:1rem;
@@ -15,19 +14,9 @@
 .grid-card:hover .card-check {
     height: calc(1.5em + .75rem + 2px)!important;
 }
-.search-result:hover {
-    background-color:var(--menu-gray);
-}
 .btn
 {
 	border-radius:var(--not-card-radius)
-}
-.performer-card button.btn.favorite-button.favorite {
-    color: #ff0000;
-}
-.btn-primary:focus, .btn-primary.focus {
-    color: var(--font-color);
-    background-color:unset;
 }
 .wrap-tags
 {
@@ -35,11 +24,6 @@
 }
 span.tag-item.badge.badge-secondary {
     margin-bottom: .5rem;
-}
-.btn-primary:not(:disabled):not(.disabled):not(.brand-link):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle
-{
-	background-color:transparent;
-	color:var(--font-color)
 }
 .performer-tag-container, .movie-tag-container {
     display: inline;
@@ -67,12 +51,7 @@ span.tag-item.badge.badge-secondary {
     border-bottom-left-radius: var(--card-radius)!important;
     border-top-left-radius: var(--card-radius)!important;
 }
-.duration-button {
-	background-color: var(--lighter-gray)!important;
-}
-.duration-button>* {
-	color:var(--font-color)!important;
-}
+
 .react-datepicker-wrapper>*>* {
 	background-color:var(--lighter-gray)!important;
 	border-top-right-radius: var(--card-radius)!important;
@@ -93,15 +72,7 @@ span.tag-item.badge.badge-secondary {
 div.rating-number>* {
     border-radius: var(--card-radius);
 }
-div.react-datepicker div.react-datepicker__time-container div.react-datepicker__time {
-    background-color: var(--background-color);
-    color:var(--font-color);
-}
-div.react-datepicker {
-    background-color:var(--background-color);
-    border-color:transparent;
-    color:var(--font-color);
-}
+
 div.react-datepicker .react-datepicker__header, div.react-datepicker .react-datepicker-time__header {
     background-color:var(--menu-gray);
     color:var(--font-color);
@@ -112,12 +83,7 @@ div.react-datepicker .react-datepicker__header, div.react-datepicker .react-date
     background-color:var(--lighter-gray);
     color: #000;
 }
-.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
-    background-color:var(--lighter-gray);
-}
-div.react-datepicker .react-datepicker__day:hover {
-    background:var(--lighter-gray);
-}
+
 input.btn-secondary.form-control {
     background-color:var(--lighter-gray);
 	border-radius: var(--card-radius);
@@ -135,9 +101,7 @@ input.btn-secondary.form-control {
 .recommendation-row-head {
     padding: 15px;
 }
-.modifier-options .modifier-option {
-    background-color:var(--lighter-gray);
-}
+
 .modifier-options .modifier-option.selected {
     background-color:var(--active-gray);
 	border: 1px solid var(--font-color);
@@ -203,11 +167,6 @@ input.btn-secondary.form-control {
 .detail-group {
     padding: 0;
 }
-.input-group-text
-{
-	background-color:var(--menu-gray);
-	color:var(--font-color)
-}
 
 .input-group.has-validation>.input-group-append>div>div>button
 {
@@ -237,33 +196,12 @@ input.btn-secondary.form-control {
 	border-radius:.25rem;
 	padding:1rem
 }
-.btn-primary.disabled,.btn-primary:disabled {
-    color: var(--font-color);
-    background-color: var(--disabled-color);
-    border-color:transparent
-}
-.btn-primary:hover {
-    color: var(--font-color);
-    background-color:var(--menu-gray);
-    border-color:transparent;
-}
+
 .set-as-default-button
 {
 	margin-top:1rem
 }
-a.minimal:hover:not(:disabled), button.minimal:hover:not(:disabled) {
-    background:unset;
-    color:var(--font-color);
-}
-.setting-section .setting:not(:last-child)
-{
-	border-bottom:1px solid var(--background-color)
-}
 
-a.bg-secondary:hover,a.bg-secondary:focus,button.bg-secondary:hover,button.bg-secondary:focus
-{
-	background-color:var(--menu-gray)!important
-}
 .input-group-text {
     border: 1px solid transparent;
 }
@@ -280,15 +218,7 @@ a.bg-secondary:hover,a.bg-secondary:focus,button.bg-secondary:hover,button.bg-se
     border-bottom: 1px solid transparent;
 	background-color: rgba(0,0,0,.2)
 }
-.edit-filter-dialog .criterion-list .card .collapse-icon {
-    color: #fff;
-}
-.empty-queue-message {
-    color: var(--font-color);
-}
-.modal-footer>button {
-	background-color: var(--lighter-gray);
-}
+
 .modal-footer {
 	border-top: 1px solid var(--lighter-gray)!important
 }
@@ -344,9 +274,7 @@ button.brand-link:after {
 	height: 35px;
 	margin: auto;
 }
-.nav-menu-toggle:hover, .nav-link:hover {
-	background-color: var(--lighter-gray)!important;
-}
+
 .navbar-buttons>.mr-2 {
 	position: absolute;
 	right: 1rem;
@@ -414,10 +342,7 @@ a.nav-utility.nav-link
 .top-nav .navbar-toggler {
     width: 3rem;
 }
-button.brand-link:hover:after
-{
-	background-color:var(--lighter-gray)!important
-}
+
 
 div.row>h4
 {
@@ -506,50 +431,6 @@ h6.col-md-2.col-4
 	padding:0
 }
 
-.btn-primary
-{
-	background-color:var(--menu-gray);
-	border-color:transparent;
-	color:var(--font-color)
-}
-
-.btn-secondary
-{
-	background-color:var(--menu-gray);
-	border-color:transparent!important;
-	color:var(--font-color)
-}
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
-    border-color: transparent;
-}
-.btn-secondary.disabled,.btn-secondary:disabled
-{
-	background-color:var(--disabled-color);
-	border-color:transparent;
-	color:var(--font-color)
-}
-
-.btn-secondary:focus,.btn-secondary.focus
-{
-	background-color:var(--lighter-gray);
-	border-color:transparent;
-	box-shadow:none;
-	color:var(--font-color)
-}
-
-.btn-secondary:hover
-{
-	background-color:var(--menu-gray);
-	border-color:transparent;
-	color:var(--font-color)
-}
-
-.btn-secondary:not(:disabled):not(.disabled):active,.btn-secondary:not(:disabled):not(.disabled).active,.show>.btn-secondary.dropdown-toggle
-{
-	background-color:var(--lighter-gray);
-	border-color:transparent;
-	color:var(--font-color)
-}
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,.btn-secondary:not(:disabled):not(.disabled).active:focus,.show>.btn-secondary.dropdown-toggle:focus
 {
@@ -582,10 +463,6 @@ h6.col-md-2.col-4
 	box-shadow: 0px 0px .5rem 1px #000;
 }
 
-.form-control::placeholder
-{
-	color:var(--font-color)
-}
 
 .form-control:focus
 {
@@ -601,12 +478,6 @@ h6.col-md-2.col-4
 {
 	box-shadow:none!important
 }
-
-.scene-card a,.gallery-card a
-{
-	color:var(--font-color)
-}
-
 body
 {
 	background-color:var(--background-color);

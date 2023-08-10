@@ -24,6 +24,13 @@
     },
     {
       category: "Global",
+      name: "Colors",
+      href: CSS + "global/" + "colors.css",
+      shortname: "Style-Plugin-CSS-colors",
+      activebydefault: "true",
+    },
+    {
+      category: "Global",
       name: "NSFW",
       href: CSS + "global/" + "blurNSFWImages.css",
       shortname: "Style-Plugin-CSS-blurNSFWImages",

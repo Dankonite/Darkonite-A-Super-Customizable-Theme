@@ -1,0 +1,124 @@
+.search-result:hover {
+    background-color:var(--menu-gray);
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: var(--font-color);
+    background-color:unset;
+}
+.performer-card button.btn.favorite-button.favorite {
+    color: #ff0000;
+}
+.btn-primary:not(:disabled):not(.disabled):not(.brand-link):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle
+{
+	background-color:transparent;
+	color:var(--font-color)
+}
+.duration-button {
+	background-color: var(--lighter-gray)!important;
+}
+.duration-button>* {
+	color:var(--font-color)!important;
+}
+div.react-datepicker div.react-datepicker__time-container div.react-datepicker__time {
+    background-color: var(--background-color);
+    color:var(--font-color);
+}
+div.react-datepicker {
+    background-color:var(--background-color);
+    border-color:transparent;
+    color:var(--font-color);
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    background-color:var(--lighter-gray);
+}
+div.react-datepicker .react-datepicker__day:hover {
+    background:var(--lighter-gray);
+}
+.modifier-options .modifier-option {
+    background-color:var(--lighter-gray);
+}
+.input-group-text
+{
+	background-color:var(--menu-gray);
+	color:var(--font-color)
+}
+.btn-primary.disabled,.btn-primary:disabled {
+    color: var(--font-color);
+    background-color: var(--disabled-color);
+    border-color:transparent
+}
+.btn-primary:hover {
+    color: var(--font-color);
+    background-color:var(--menu-gray);
+    border-color:transparent;
+}
+.setting-section .setting:not(:last-child)
+{
+	border-bottom:1px solid var(--background-color)
+}
+a.minimal:hover:not(:disabled), button.minimal:hover:not(:disabled) {
+    background:unset;
+    color:var(--font-color);
+}
+a.bg-secondary:hover,a.bg-secondary:focus,button.bg-secondary:hover,button.bg-secondary:focus
+{
+	background-color:var(--menu-gray)!important
+}
+.edit-filter-dialog .criterion-list .card .collapse-icon {
+    color: #fff;
+}
+.empty-queue-message {
+    color: var(--font-color);
+}
+.modal-footer>button {
+	background-color: var(--lighter-gray);
+}
+.nav-menu-toggle:hover, .nav-link:hover {
+	background-color: var(--lighter-gray)!important;
+}
+button.brand-link:hover:after
+{
+	background-color:var(--lighter-gray)!important
+}
+.btn-secondary, .btn-primary
+{
+	background-color:var(--menu-gray);
+	border-color:transparent!important;
+	color:var(--font-color)
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
+    border-color: transparent;
+}
+.btn-secondary.disabled,.btn-secondary:disabled
+{
+	background-color:var(--disabled-color);
+	border-color:transparent;
+	color:var(--font-color)
+}
+.btn-secondary:focus,.btn-secondary.focus
+{
+	background-color:var(--lighter-gray);
+	border-color:transparent;
+	box-shadow:none;
+	color:var(--font-color)
+}
+.btn-secondary:hover
+{
+	background-color:var(--menu-gray);
+	border-color:transparent;
+	color:var(--font-color)
+}
+.btn-secondary:not(:disabled):not(.disabled):active,.btn-secondary:not(:disabled):not(.disabled).active,.show>.btn-secondary.dropdown-toggle
+{
+	background-color:var(--lighter-gray);
+	border-color:transparent;
+	color:var(--font-color)
+}
+.form-control::placeholder
+{
+	color:var(--font-color)
+}
+.scene-card a,.gallery-card a
+{
+	color:var(--font-color)
+}
