@@ -18,6 +18,13 @@
     },
     {
       category: "Global",
+      name: "Dont Disable (todo fix)",
+      href: CSS + "global/" + "dontdisable.css",
+      shortname: "Style-Plugin-CSS-dontdisable",
+      activebydefault: "true"
+    },
+    {
+      category: "Global",
       name: "Theme",
       href: CSS + "global/" + "Dankonite.css",
       shortname: "Style-Plugin-CSS-theme",
