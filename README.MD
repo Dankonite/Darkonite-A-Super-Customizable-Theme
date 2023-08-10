@@ -11,7 +11,7 @@ If you decide to poke inside the code and change parts of this you need to clear
 
 Clicking on any radio/checkbox toggles the CSS, saves the CSS content of the Stylesheet in the browsers local storage, with an applied flag, either true or false which allows the script upon page navigation and refresh to apply previously selected stylesheets
 
-Under Change Order of Menu Bar, you can drag the elements to reorder the main menu and upon dropping it will generate the required CSS. It should work on touchscreens also, tested on Chrome IOS by elkorol on his version, cant personally speak for every device/browser.
+Under Change Order of Menu Bar, you can drag the elements to reorder the main menu and upon dropping it will generate the required CSS. It should work on touchscreens also, tested on Chrome IOS by elkorol on his version, I cant personally speak for every device/browser.
 
 ## Other Requirements
 
@@ -25,14 +25,14 @@ This plugin requires the feature of Stash - Custom Served Folders, to serve the 
 
 ```yaml
 custom_served_folders:
-  /themeswitch: [Path to where you copied the repository plugin]\assets
+  /darkonite: [Path to where you copied the repository plugin]\assets
 ```
 
-*I.E.*
+*Example*
 
 ```yaml
 custom_served_folders:
-  /themeswitch: C:\Stash\plugins\Stash-App-Theme-Switch-Plugin\assets
+  /darkonite: C:\Users\MyUser\.stash\plugins\Darkonite-A-Super-Customizable-Theme\assets
 ```
 
 4. Open theme.js and edit STASHURL variable at the top to suit your configuration. If leaving it as localhost and accessing Stash on a third party device on your network via IP address, it will not work unless you set the variable to that IP address or if you have a custom domain/host setup

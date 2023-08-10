@@ -1,6 +1,6 @@
 (function () {
   const STASHURL = "http://10.0.0.93:9999";
-  const ROOT = "/custom/themeswitch/";
+  const ROOT = "/custom/darkonite/";
   const CSS = STASHURL + ROOT + "css/";
   const LIBURL = STASHURL + ROOT + "lib/";
 
@@ -70,7 +70,7 @@
       name: "Hide Donate Button",
       href: CSS + "global/" + "hideDonateButton.css",
       shortname: "Style-Plugin-CSS-hideDonateButton",
-      activebydefault: "true",
+      activebydefault: "false",
     },
     {
       category: "Scenes",
@@ -105,6 +105,13 @@
       name: "Stats on top, studio on bottom (Has priority)",
       href: CSS + "SceneCard/" + "statsontop.css",
       shortname: "Style-Plugin-CSS-statsontop",
+      activebydefault: "true",
+    },
+    {
+      category: "Performers",
+      name: "Round Flags",
+      href: CSS + "performers/" + "roundflags.css",
+      shortname: "Style-Plugin-CSS-roundflags",
       activebydefault: "true",
     },
     {

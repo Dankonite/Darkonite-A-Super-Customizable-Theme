@@ -473,21 +473,7 @@ hr
     min-height: 17.1rem;
     min-width: 150vw
 }
-.performer-card .fi
-{
-	bottom:unset;
-	top: 10px;
-	filter:drop-shadow(0 0 2px rgba(0,0,0,.9));
-	height:2rem;
-	position:absolute;
-	left:10px;
-	border-radius: 999px;
-	background-size: cover;
-	right:unset;
-	width:2rem;
-	opacity: 0;
-	transition: opacity .5s
-}
+
 .grid-card .card-check {
     display: none;
 }
@@ -505,7 +491,17 @@ hr
 	right:0
 }
 
-
+.performer-card .fi
+{
+	bottom:unset;
+	top: 10px;
+	filter:drop-shadow(0 0 2px rgba(0,0,0,.9));
+	position:absolute;
+	left:10px;
+	right:unset;
+	opacity: 0;
+	transition: opacity .5s
+}
 hr
 {
 	margin:0
