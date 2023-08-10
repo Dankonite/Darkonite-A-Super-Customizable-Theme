@@ -1,68 +1,41 @@
-/* Author: fl0w#9497 */
-/* [Global changes] Blur NSFW images and unblur on mouse over */
-/* === MORE BLUR === */
-/* scene */
-.scene-card-preview,
-.vjs-poster,
-video,
-.scene-cover,
-.scrubber-item,
+/* [Global changes] Blur NSFW images */
 
-/* image */
-.image-card-preview,
-.image-image,
-.gallery-image,
-
-/* movie */
-.movie-card-image,
-.movie-images,
-
-/* gallery */
+.scene-card-preview-video,
+.scene-card-preview-image,
+.image-card-preview-image,
+.image-thumbnail,
 .gallery-card-image,
-table > tbody > tr > td > a > img.w-100,
-
-/* performer */
 .performer-card-image,
 img.performer,
-
-/* studio */
-.studio-card-image,
-
-/* tag */
-.tag-card-image
-
-{
- filter: blur(30px);
+.movie-card-image,
+.gallery .flexbin img,
+.wall-item-media,
+.scene-studio-overlay .image-thumbnail,
+.image-card-preview-image,
+#scene-details-container .text-input,
+#scene-details-container .scene-header,
+#scene-details-container .react-select__single-value,
+.scene-details .pre,
+#scene-tabs-tabpane-scene-file-info-panel span.col-8.text-truncate > a,
+.gallery .flexbin img,
+.movie-details .logo {
+ filter: blur(8px);
 }
 
-/* === LESS BLUR === */
-/* common */
-.card-section-title,
+.scene-card-video {
+ filter: blur(13px);
+}
 
-/* scene */
-.scene-studio-overlay,
-.scene-header > h3,
-h3.scene-header,
+.jw-video,
+.jw-preview,
+.jw-flag-floating,
+.image-container,
 .studio-logo,
-.image-thumbnail,
+.scene-cover {
+ filter: blur(20px);
+}
 
-/* image */
-h3.image-header,
-
-/* movie */
-.movie-details > div > h2,
-
-/* gallery */
-h3.gallery-header,
-
-/* studio */
-.studio-details .logo,
-.studio-details > div > h2,
-
-/* tag */
-.logo-container > .logo,
-.logo-container > h2
-
-{
- filter: blur(2px);
+.movie-card .text-truncate,
+.scene-card .card-section {
+ filter: blur(4px);
 }
