@@ -1,6 +1,6 @@
 .btn
 {
-	border-radius:var(--not-card-radius)
+	border-radius:var(--not-card-radius);
 }
 .performer-tag>.image-thumbnail {
 	border-radius: var(--card-radius);
